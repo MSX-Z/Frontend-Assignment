@@ -1,3 +1,6 @@
+# ENV
+VITE_API_URL=https://dummyjson.com
+
 # Assignment
 
 ## 1. Auto Delete Todo List
