@@ -1,6 +1,6 @@
-import type { CartItemDate } from "@/features/cart/types/cart.type";
+import type { CartItemData } from "@/features/cart/types/cart.type";
 
-export const MAIN_CART: CartItemDate[] = [
+export const MAIN_CART: CartItemData[] = [
     {
         type: 'Fruit',
         name: 'Apple',

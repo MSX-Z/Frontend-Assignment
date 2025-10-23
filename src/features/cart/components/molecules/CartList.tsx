@@ -1,13 +1,13 @@
 import { memo, type FC } from "react";
-import type { CartItemDate } from "@/features/cart/types/cart.type";
+import type { CartItemData } from "@/features/cart/types/cart.type";
 import { v4 as uuidV4 } from "uuid";
 import { cn } from "@/utils/utils";
 
 type CartListProps = {
   className?: string;
   headerTitle?: string;
-  data: CartItemDate[];
-  onClick?: (item: CartItemDate) => void;
+  data: CartItemData[];
+  onClick?: (item: CartItemData) => void;
 };
 
 const CartList: FC<CartListProps> = ({

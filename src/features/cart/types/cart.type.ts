@@ -1,5 +1,5 @@
 export type ItemType = "Fruit" | "Vegetable"  
-export type CartItemDate = {
+export type CartItemData = {
     type: ItemType
     name: string
 }
